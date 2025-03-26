@@ -9,6 +9,7 @@ def lower_case(user_input):
     return user_input.translate(replacement_table)
 
 #initialize user input
-user_input = input("Enter")
+user_input = input("Enter your name: ")
 
 #print result with the function
+print(lower_case(user_input))
