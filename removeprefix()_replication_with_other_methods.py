@@ -1,16 +1,17 @@
 #intialize function for removeprefix() replication
-def remove_prefix(removed_word):
-    remove = removed_word.replace(removed_word, "pogi")
+#initialize a startswith() function to check for prefix and remove it
+def remove_prefix(user_input, remove):
+    if user_input.startswith(remove):
+        return user_input[len(remove):]
+    else:
+        return user_input
+    
+#initialize user input and prompt on what to remove
+user_input = input("Enter your desired text: ")
 
-    return remove
+print(user_input)
 
-#initialize user input 
-sample_text = "JustinPogi"
-
-print(sample_text)
-
-user_input = input("Select word/s that you would like to remove: ")
+remove_word = input("Type the prefix on what you want to remove: ")
 
 #print result
-
-print(remove_prefix(user_input))
+print(remove_prefix(user_input, remove_word))
