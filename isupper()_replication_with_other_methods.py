@@ -1,11 +1,13 @@
 #initialize function to check for upper_case letters and return boolean
 def check_upper(user_input):
-    upper_case = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-
-    if len(user_input) in upper_case:
-        return True
-    else:
+    if not user_input:
         return False
+    
+    for letters in user_input:
+        if letters.isalpha() and not ("A" <= letters <= "Z"):
+            return False
+    
+    return True
 
 #initialize user input
 user_input = input("Enter your desired text: ")
