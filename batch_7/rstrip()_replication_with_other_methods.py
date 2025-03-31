@@ -1,6 +1,5 @@
-#initialize function for rstrip() replication
+# Initialize function for rstrip() replication
 def rm_right_spaces(user_input):
-
     user_input_string = len(user_input) - 1
 
     while user_input_string >= 0 and user_input[user_input_string] == " ":
@@ -8,9 +7,9 @@ def rm_right_spaces(user_input):
      
     return user_input[:user_input_string + 1]
 
-#initialize user input
+# Initialize user input
 user_input = input("Enter your desired text: ")
 
-#print result
+# Print result
 result = rm_right_spaces(user_input)
 print(f"'{result}'")

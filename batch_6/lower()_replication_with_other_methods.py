@@ -1,4 +1,4 @@
-#initialize function for converting to lowercase 
+# Initialize function for converting to lowercase 
 def lower_case(user_input):
     upper_case = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
@@ -8,8 +8,9 @@ def lower_case(user_input):
 
     return user_input.translate(replacement_table)
 
-#initialize user input
+
+# Initialize user input
 user_input = input("Enter your name: ")
 
-#print result with the function
+# Print result with the function
 print(lower_case(user_input))

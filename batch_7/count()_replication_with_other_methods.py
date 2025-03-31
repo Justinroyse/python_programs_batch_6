@@ -1,4 +1,4 @@
-#initialize function for count() replication
+# Initialize function for count() replication
 def count_occurred(user_input, counting):
     count = 0
 
@@ -10,10 +10,11 @@ def count_occurred(user_input, counting):
     
     return count
 
-#initialize user input variable
+
+# Initialize user input variable
 user_input = input("Enter your desired text: ")
 counting = input("Enter word/words to count for: ")
 
-#print result
+# Print result
 result = count_occurred(user_input, counting)
 print(result)

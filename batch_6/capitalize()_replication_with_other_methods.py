@@ -8,6 +8,7 @@ def capital_first(user_input):
 
     return first_letter + other_letters
 
+
 #initialize user input
 user_input = input("Enter your desired text: ")
 

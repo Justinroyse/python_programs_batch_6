@@ -1,4 +1,4 @@
-#initialize function to check for upper_case letters and return boolean
+# Initialize function to check for upper_case letters and return boolean
 def check_upper(user_input):
     if not user_input:
         return False
@@ -9,8 +9,9 @@ def check_upper(user_input):
     
     return True
 
-#initialize user input
+
+# Initialize user input
 user_input = input("Enter your desired text: ")
 
-#print result
+# Print result
 print(check_upper(user_input))

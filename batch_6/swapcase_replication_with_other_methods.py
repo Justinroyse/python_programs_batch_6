@@ -1,4 +1,4 @@
-#initialize function for swapcase() replication
+# Initialize function for swapcase() replication
 def swap_case(user_input):
     user_input_store = []
 
@@ -14,8 +14,9 @@ def swap_case(user_input):
     
     return "".join(user_input_store)
 
-#initialize user input variable
+
+# Initialize user input variable
 user_input = input("Enter your desired text: ")
 
-#print result
+# Print result
 print(swap_case(user_input))

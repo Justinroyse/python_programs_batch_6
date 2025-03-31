@@ -1,4 +1,4 @@
-#initialize function for islower() replication
+# Initialize function for islower() replication
 def check_lower(user_input):
     if not user_input:
         return False
@@ -9,8 +9,9 @@ def check_lower(user_input):
     
     return True
 
-#initialize user input variable
+
+# Initialize user input variable
 user_input = input("Enter your desired text: ")
 
-#print boolean result
+# Print boolean result
 print(check_lower(user_input))

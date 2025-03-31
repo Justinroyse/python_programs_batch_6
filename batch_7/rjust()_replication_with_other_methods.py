@@ -1,4 +1,4 @@
-#initialize function for rjust() replication
+# Initialize function for rjust() replication
 def add_left_spaces(user_input, spaces):
     if len(user_input) >= spaces:
         return user_input
@@ -9,11 +9,12 @@ def add_left_spaces(user_input, spaces):
 
     return spaced_input
 
-#initialize user input variable
+
+# Initialize user input variable
 user_input = input("Enter your desired text: ")
 print(user_input)
 spaces = int(input("Enter total spaces needed: "))
 
-#print result
+# Print result
 result = add_left_spaces(user_input, spaces)
 print(f"'{result}'")

@@ -1,5 +1,5 @@
-#initialize function for upper() replication
-#initialize list for storing result of converted letters
+# Initialize function for upper() replication
+# Initialize list for storing result of converted letters
 def make_upper(user_input):
     result = []
 
@@ -13,8 +13,9 @@ def make_upper(user_input):
     
     return ''.join(result)
 
-#initialize user input variable
+
+# Initialize user input variable
 user_input = input("Enter your desired text: ")
 
-#print result
+# Print result
 print(make_upper(user_input))

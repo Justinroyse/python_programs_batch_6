@@ -1,7 +1,6 @@
-#intialize function for lstrip replication
-#initialize a loop to find non-space character
+# Initialize function for lstrip replication
+# Initialize a loop to find non-space character
 def remove_spaces_left(user_input):
-    
      user_input_string = 0
 
      while user_input_string < len(user_input) and user_input[user_input_string] == " ":
@@ -9,8 +8,9 @@ def remove_spaces_left(user_input):
      
      return user_input[user_input_string:]
 
-#intialize user input
+
+# Initialize user input
 user_input = input("Enter your fullname with 5 spaces at the beginning: ")
 
-#print result using function
+# Print result using function
 print(remove_spaces_left(user_input))

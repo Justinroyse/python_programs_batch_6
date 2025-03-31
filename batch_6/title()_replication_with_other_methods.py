@@ -1,4 +1,4 @@
-#initialize function for title() replicaton
+# Initialize function for title() replicaton
 def to_title(user_input):
     words = user_input.split()
 
@@ -12,8 +12,8 @@ def to_title(user_input):
     return " ".join(corrected_words)
 
 
-#initialize user input variable
+# Initialize user input variable
 user_input = input("Enter your desired text: ")
 
-#print result
+# Print result
 print(to_title(user_input))
